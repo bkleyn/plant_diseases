@@ -1,7 +1,7 @@
-am231_seedlings
+Plant disease classification
 ==============================
 
-Plant seedlings classification
+Classification of plant diseases using image data and neural networks
 
 Project Organization
 ------------
@@ -30,6 +30,8 @@ Project Organization
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
+    |
+    ├── src                <- Source code used for training models and running experiments
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
