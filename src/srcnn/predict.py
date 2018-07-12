@@ -1,3 +1,5 @@
+"""Generate images using trained SRCNN model."""
+
 import keras
 from keras.models import load_model
 

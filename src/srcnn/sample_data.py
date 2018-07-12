@@ -1,3 +1,5 @@
+"""Randomly sample subset of images to use for SRCNN model."""
+
 import os
 import numpy as np
 import pandas as pd

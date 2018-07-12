@@ -1,8 +1,11 @@
+"""Train CNN model based on InceptionV3 network."""
+
 import keras
 from keras.models import Model
 from keras.layers import Dense, Activation
 from keras.layers import GlobalAveragePooling2D
-from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, CSVLogger
+from keras.callbacks import EarlyStopping, ModelCheckpoint
+from keras.callbacks import ReduceLROnPlateau, CSVLogger
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications.inception_v3 import InceptionV3, preprocess_input
 from keras.optimizers import Adam
