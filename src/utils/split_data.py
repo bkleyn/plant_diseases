@@ -5,8 +5,8 @@ from shutil import copyfile
 from tqdm import tqdm
 
 INPUT_SIZE = 256
-
 SET = [0.7, 0.5, 0.3]
+
 for TRAIN_SIZE in SET:
 
     # Set input directory
